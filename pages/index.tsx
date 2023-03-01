@@ -1,23 +1,29 @@
 import Head from "next/head";
-import { Container, Main, Title } from "../components/sharedstyles";
-import Features from "../components/features/features";
+import { Container, Main, Title } from "components/sharedstyles";
+import Features from "components/features/features";
+import SearchInput from "components/search-input/search-input";
 
 export default function Home() {
   return (
     <Container>
       <Head>
-        <title>React TypeScript RESTful demo</title>
+        <title>React TypeScript GitHub API demo</title>
         <meta
           name="description"
-          content="A zero config demo using React, TypeScript, Next.js, StyledComponents, RESTful and Github API."
+          content="A zero config demo using React, TypeScript, Next.js, StyledComponents and GitHub API."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Main>
         <Title>
           Welcome to{" "}
-          <a href="https://nextjs.org">React TypeScript RESTful demo!</a>
+          <a href="https://react-typescript-github-api-demo.vercel.app/">
+            Next.js
+          </a>{" "}
+          demo!
         </Title>
+
+        <SearchInput />
 
         <Features />
       </Main>

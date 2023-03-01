@@ -22,7 +22,7 @@ export const features: IFeature[] = [
     description: "https://styled-components.com/",
   },
   {
-    name: "RESTful API",
-    description: "https://restfulapi.net/",
+    name: "GitHub API",
+    description: "https://docs.github.com/en/rest",
   },
 ];
