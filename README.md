@@ -1,6 +1,6 @@
 # React TypeScript RESTful demo
 
-A zero config demo using React, TypeScript, StyledComponents, RESTful and Github API.
+A zero config demo using React, TypeScript, Next.js, StyledComponents, RESTful and Github API.
 
 ## Online demo
 
