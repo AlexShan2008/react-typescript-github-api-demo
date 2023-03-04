@@ -85,15 +85,12 @@ export const SearchResultItem = styled.li`
   padding: 6px 20px;
   cursor: pointer;
 
-  .octicon {
-    margin-right: 10px;
-  }
-
   .name {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     max-width: 85%;
+    margin-left: 8px;
   }
 
   .tip {
