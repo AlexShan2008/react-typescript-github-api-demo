@@ -4,7 +4,7 @@ A zero config demo using React, TypeScript, Next.js, StyledComponents and GitHub
 
 ## Online demo
 
-Visit this [Online demo](https://nextjs.org/docs/advanced-features/compiler#styled-components).
+Visit this [Online demo](https://react-typescript-github-api-demo.vercel.app/).
 
 ## Install Dependencies
 
