@@ -1,6 +1,6 @@
 import { message } from "antd";
 
-export async function getData(url = "") {
+export async function fetchData(url = "", options?: RequestInit) {
   // Default options are marked with *
   const response = await fetch(url, {
     method: "GET", // *GET, POST, PUT, DELETE, etc.
@@ -12,6 +12,7 @@ export async function getData(url = "") {
       // "X-GitHub-Api-Version": "2022-11-28", //Backend API doesn't support this, will cause CORS issue.
       Accept: "application/vnd.github+json",
     },
+    ...options,
   });
 
   const isJson = response.headers

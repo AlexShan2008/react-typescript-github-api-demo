@@ -1,5 +1,5 @@
 import qs from "qs";
-import { getData } from "./index";
+import { fetchData } from "./index";
 import { ISearchResult } from "../entities";
 import { trim } from "lodash";
 
@@ -21,5 +21,5 @@ export const getRepositories = (
   );
   const url = `https://api.github.com/search/repositories?${query}`;
 
-  return getData(url);
+  return fetchData(url);
 };

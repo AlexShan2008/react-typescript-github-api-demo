@@ -68,7 +68,7 @@ export default function SearchInput() {
 
   // Using lodash debounce because it's more stable and reliable.
   const debouncedKeywordChangeHandler = useCallback(
-    debounce(keywordChangeHandler, 300),
+    debounce(keywordChangeHandler, 100),
     []
   );
 
