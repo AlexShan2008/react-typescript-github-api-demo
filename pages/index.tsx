@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Container, Main, Title } from "components/sharedstyles";
 import Features from "components/features/features";
 import SearchInput from "components/search-input/search-input";
+import { Footer } from "components/footer/footer";
 
 export default function Home() {
   return (
@@ -30,6 +31,8 @@ export default function Home() {
         <SearchInput />
 
         <Features />
+
+        <Footer />
       </Main>
     </Container>
   );
