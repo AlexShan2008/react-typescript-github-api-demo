@@ -17,7 +17,11 @@ export default function Home() {
       <Main>
         <Title>
           Welcome to{" "}
-          <a href="https://react-typescript-github-api-demo.vercel.app/">
+          <a
+            data-cypress="demoUrl"
+            href="https://react-typescript-github-api-demo.vercel.app/"
+            target="_self"
+          >
             Next.js
           </a>{" "}
           demo!

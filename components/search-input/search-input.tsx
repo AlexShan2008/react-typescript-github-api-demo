@@ -71,7 +71,7 @@ export default function SearchInput() {
 
   // Using lodash debounce because it's more stable and reliable.
   const debouncedKeywordChangeHandler = useCallback(
-    debounce(keywordChangeHandler, 100),
+    debounce(keywordChangeHandler, 200),
     []
   );
 
@@ -123,6 +123,7 @@ export default function SearchInput() {
         </SearchIconWrapper>
 
         <StyledSearchInput
+          data-cypress="searchInput"
           ref={searchInputRef}
           type="text"
           value={keyword}
@@ -150,7 +151,7 @@ export default function SearchInput() {
       >
         <BorderLine />
 
-        <SearchResultMainWrapper>
+        <SearchResultMainWrapper data-cypress="searchResult">
           {searchResult?.items?.map((item) => renderItem(item))}
         </SearchResultMainWrapper>
 

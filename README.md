@@ -29,3 +29,9 @@ yarn build
 ```bash
 yarn start
 ```
+
+## E2E Testing
+
+```bash
+yarn run cypress
+```
