@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
+    "@serverlessq/nextjs": "^1.0.9",
     "antd": "^5.2.3",
     "clsx": "^1.2.1",
     "lodash": "^4.17.21",
